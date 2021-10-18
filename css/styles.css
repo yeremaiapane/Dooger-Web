@@ -1,0 +1,435 @@
+.body{
+
+}
+
+#title{
+    background-color : #ff4c68;
+}
+
+.navbar{
+    padding-bottom : 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    color : white;
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+
+.nav-link{
+    color : #F3F1F5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size : 1.2rem;
+}
+
+.nav-item{
+    padding : 0 18px;
+
+}
+
+a{
+    color : white;
+    text-decoration : none;
+}
+
+a:hover{
+    color : whitesmoke;
+    transition : 0.7s;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size : 3.5rem;
+    line-height : 1.5;
+    color : white;
+}
+
+.container-fluid{
+    padding : 3% 15% 7%;
+}
+
+.download-btn{
+    margin : 5% 3% 5% 0;
+}
+
+.img-title{
+    transform : rotate(25deg);
+}
+
+#features{
+    text-align : center;
+    padding : 7% 15%;
+    font-family: 'lato', sans-serif;
+    margin-bottom : 1.5rem;
+    margin : 50px auto;
+    position : relative;
+    background-color: #fff;
+}
+
+h3 {
+    font-size : 20;
+    font-weight : bold;
+}
+
+#testimonials{
+    background-color: #ff4c68;
+    padding : 3% 5%;
+    color : #fff;
+    text-align : center;
+}
+
+blockquote{
+    font-size: 1.4em;
+    width:60%;
+    margin:25px auto;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #fff;
+    padding:1.2em 30px 1.2em 75px;
+    line-height:1.6;
+    position: relative;
+    background:#ff4c68;
+  }
+  
+blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#fff;
+    font-size:2.5em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+  
+blockquote::after{
+    content: '';
+  }
+
+.testimonial-img{
+    width : 15%;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-bottom : 75px;
+}
+
+#press{
+    margin : 5% 5%;
+    padding : 3% 7%;
+    
+}
+
+.press-img{
+    margin-right: 25px;
+    width : 20%;
+}
+
+#pricing{
+    background-color: #ff4c68;
+    padding : 3% 2%;
+}
+
+.judul{
+    text-align : center;
+    color : #fff;
+    font-family: 'Merriweather', serif;
+}
+
+.judul h2{
+    font-size : 40px;
+}
+
+/* #pricing {
+    padding: 40px 0;
+    background: #fff;
+} */
+
+.single-price {
+    margin: 20px 25px;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #ff4c68;
+    transition: 0.5s;
+}
+
+.single-price:hover {
+    box-shadow: 0 4px 20px #333;
+}
+
+.headprice {
+    
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.headprice h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.headprice p {
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#price span {
+    font-size: 15px;
+}
+
+.price-content {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+    
+}
+
+.price-content ul li {
+    padding: 15px 10px;
+    list-style: none;
+    text-align: center;
+    margin-right : 50px;
+}
+
+ul li:last-child {
+    border: none;
+}
+
+.fa-check-circle {
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.fa-times-circle {
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.price-button {
+    display: inline;
+    float: left;
+    pad: 15px 15px 30px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+.buy-btn {
+    background-color: #efefef;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+    color: black;
+}
+
+.buy-btn:hover {
+    border-color: 1px solid #ff4c68;
+    background-color: #ff4c68;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#cta{
+    background-color : #fff;
+}
+
+.head-cta{
+    text-align: center;
+    margin : 50px auto;
+    font-family: 'lato', sans-serif;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.bawah ul {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+
+}
+
+.bawah li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.download {
+  width: 200px;
+  height: 75px;
+  background: black;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  margin-top: 3%;
+}
+
+.bawah .fab{
+    color: #fff;
+    position: relative;
+    top: 50%;
+    padding-right : 120px;
+    padding-top : 15px;
+    transform: translateY(-50%);
+}
+
+.download {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  padding-right : 120px;
+  padding-top : 15px;
+  transform: translateY(-50%);
+}
+
+.df, .dfn {
+  position: absolute;
+  left: 70px;
+}
+
+.df {
+  top: 20px;
+  font-size: 0.68em;
+}
+
+.dfn {
+  top: 33px;
+  font-size: 1.08em;
+}
+
+.bawah .download:hover {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+#footer {
+    background: rgb(41, 41, 41);
+    background: -moz-linear-gradient(
+      180deg,
+      rgba(41, 41, 41, 1) 0%,
+      rgba(24, 30, 48, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(41, 41, 41, 1) 0%,
+      rgba(24, 30, 48, 1) 100%
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(41, 41, 41, 1) 0%,
+      rgba(24, 30, 48, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292929",endColorstr="#181e30",GradientType=1);
+    height: 100%;
+    width: 100%;
+}
+
+.foot p{
+    text-align: center;
+    color : #eee;
+}
+
+.foot a {
+    text-align: center;
+    margin-top: 5%;
+    color: #eee;
+}
+  
+.foot ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 2rem;
+}
+  
+  ul li {
+    padding: 1rem;
+  }
+  
+.foot .fab {
+    font-size: 5rem;
+  }
+  
+  /* transition for social icon hover animation */
+  .fa-facebook,
+  .fa-codepen,
+  .fa-youtube,
+  .fa-instagram,
+  .fa-github,
+  .fa-pinterest {
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  
+  /* social media icons hover color */
+  .fa-facebook:hover,
+  .fa-facebook:focus {
+    color: #1877f2;
+    transform: scale(1.1);
+  }
+  
+  .fa-twitter:hover,
+  .fa-twitter:focus {
+    color: #1da1f2;
+    transform: scale(1.1);
+  }
+  
+  .fa-youtube:hover,
+  .fa-youtube:focus {
+    color: #df2426;
+    transform: scale(1.1);
+  }
+  
+  .fa-instagram:hover,
+  .fa-instagram:focus {
+    color: #bd22a2;
+    transform: scale(1.1);
+  }
+  
+  .fa-github:hover,
+  .fa-github:focus {
+    color: #000;
+    transform: scale(1.1);
+  }
+  
+  .fa-github:hover,
+  .fa-github:focus {
+    color: #000;
+    transform: scale(1.1);
+  }
+  
+  .fa-codepen:hover,
+  .fa-codepen:focus {
+    color: #000;
+    transform: scale(1.1);
+  }
+  
+  .fa-pinterest:hover,
+  .fa-pinterest:focus {
+    color: #b3001b;
+  }
